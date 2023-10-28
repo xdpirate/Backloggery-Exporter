@@ -3,9 +3,10 @@ UserScript to export game data from Backloggery as JSON or CSV.
 
 # Installation
 1. Install Tampermonkey
-2. Navigate to one of your games list pages on Backloggery (`https://backloggery.com/games.php?user=username`)
-3. Wait for the script to load, underneath your user banner
-4. Click either "Export to JSON" or "Export to CSV"
+2. Install [Backloggery-Exporter](https://github.com/xdpirate/Backloggery-Exporter/raw/main/Backloggery-Exporter.user.js)
+3. Navigate to one of your games list pages on Backloggery (`https://backloggery.com/games.php?user=username`)
+4. Wait for the script to load, underneath your user banner
+5. Click either "Export to JSON" or "Export to CSV"
 
 # Licensing
 Backloggery-Exporter - Copyright (C) 2023 xdpirate
