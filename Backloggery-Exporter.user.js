@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Backloggery-Exporter
 // @namespace    https://backloggery.com/
-// @version      1.0
+// @version      1.1
 // @description  Export game data from Backloggery
 // @author       xdpirate
 // @match        https://backloggery.com/games.php?user=*
@@ -61,7 +61,7 @@ function exportGames(exportType) {
                 }
 
                 // game.status - Completion status of the game
-                let status = gameElements[i].querySelector("h2 > a:nth-child(2) > img").alt;
+                let status = gameElements[i].querySelector(`h2 > a[href*="games.php"] > img`).alt;
                 if(status == "(-)") {
                     game.status = "Null";
                 } else if(status == "(C)") {
