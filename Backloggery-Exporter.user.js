@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Backloggery-Exporter
 // @namespace    https://backloggery.com/
-// @version      1.1
+// @version      1.2
 // @description  Export game data from Backloggery
 // @author       xdpirate
 // @match        https://backloggery.com/games.php?user=*
@@ -208,7 +208,7 @@ window.setTimeout(function() {
             </div>
         </div>
     `;
-    document.querySelector("#banner_id").parentElement.insertAdjacentElement("afterend", exporterDiv);
+    document.querySelector("#intro").insertAdjacentElement("beforeend", exporterDiv);
 
     document.querySelector("#btnExportJSON").onclick = function() {
         exportGames("json");
