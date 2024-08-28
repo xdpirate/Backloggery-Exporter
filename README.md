@@ -1,3 +1,6 @@
+# Deprecation notice
+This script is deprecated, since Backloggery launched a redesign with built-in data export support. The code is preserved for posterity but will not be functional in its current state. Feel free to modify, adapt, etc, under the terms of the GNU General Public License v3.0.
+
 # Backloggery-Exporter
 UserScript to export game data from Backloggery as JSON or CSV.
 
