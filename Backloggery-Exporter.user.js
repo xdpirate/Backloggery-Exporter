@@ -4,6 +4,7 @@
 // @version      1.2
 // @description  Export game data from Backloggery
 // @author       xdpirate
+// @license      GPLv3
 // @match        https://backloggery.com/games.php?user=*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=backloggery.com
 // @grant        none
